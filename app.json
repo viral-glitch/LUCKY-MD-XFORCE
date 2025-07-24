@@ -9,8 +9,8 @@
   ],
   "logo": "https://files.catbox.moe/uw4l17.jpeg",
   "repository": "https://github.com/mr-X-force/LUCKY-MD-XFORCE",
-  "succes_url":"/",
-  "stack":"heroku-24",
+  "succes_url": "/",
+  "stack": "container",
   "env": {
     "PREFIX": {
       "description": "Choose your bot's prefix",
@@ -138,18 +138,28 @@
       "value": "no",
       "required": false
     }
-  },
-	
- 
-	  "buildpacks": [
-    {
-      "url": "heroku/nodejs"
     },
-    {
-      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
-    },
-    {
-      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+
+  "formation": {
+
+    "worker": {
+
+      "quantity": 1,
+
+      "size": "standard-2x"
+
     }
+
+  },
+
+  "addons": [
+
+    {
+
+      "plan": "heroku-postgresql:essential-0"
+
+    }
+
   ]
+
 }
