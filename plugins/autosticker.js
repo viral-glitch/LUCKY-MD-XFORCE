@@ -3,7 +3,7 @@ const fs = require("fs");
 const path = require("path");
 
 // Load stickers JSON
-const stickersPath = path.join(__dirname, "fredie/autosticker.json");
+const stickersPath = path.join(__dirname, "../fredie/autosticker.json");
 let stickersData = {};
 try {
   if (fs.existsSync(stickersPath)) {
