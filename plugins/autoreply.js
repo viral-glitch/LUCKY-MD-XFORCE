@@ -2,7 +2,7 @@ const { ezra } = require("../fredi/ezra");
 const fs = require("fs");
 const path = require("path");
 
-const repliesPath = path.join(__dirname, "fredie/autoreply.json");
+const repliesPath = path.join(__dirname, "../fredie/autoreply.json");
 let repliesData = {};
 try {
   if (fs.existsSync(repliesPath)) {
