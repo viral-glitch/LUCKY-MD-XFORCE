@@ -20,7 +20,7 @@ ezra({
 }, async (origineMessage, zk, commandeOptions) => {
   const { ms, body } = commandeOptions;
 
-  if ((conf.AUTO_REPLY || "").toLowerCase() !== "yes") return;
+  if ((conf.GREET_MESSAGE || "").toLowerCase() !== "yes") return;
   const msgText = body?.toLowerCase();
   if (!msgText) return;
 
