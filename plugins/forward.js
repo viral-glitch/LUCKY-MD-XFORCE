@@ -1,6 +1,6 @@
 const { ezra } = require("../fredi/ezra");
-const { ajouterOuMettreAJourJid, mettreAJourAction, verifierEtatJid } = require("../luckydatabase/antilien");
-const { atbajouterOuMettreAJourJid, atbverifierEtatJid } = require("../luckydatabase/antibot");
+const { ajouterOuMettreAJourJid, mettreAJourAction, verifierEtatJid } = require("../lib/antilien");
+const { atbajouterOuMettreAJourJid, atbverifierEtatJid } = require("../lib/antibot");
 const fs = require("fs-extra");
 const conf = require("../set");
 const { default: axios } = require('axios');
