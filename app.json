@@ -33,6 +33,11 @@
       "value": "no",
       "required": false
     },
+    "GREET_MESSAGE": {
+      "description": "when enabled it automatically sends greeting message in your chats",
+      "value": "no",
+      "required": false
+    },
     "AUTO_REACT_STATUS": {
       "description": "Your contact status will be react automatically (type 'yes' to activate or 'no' to deactivate; don't write in capital letters)",
       "value": "yes",
@@ -47,6 +52,11 @@
       "description":"Enter yes for your bot to auto save contacts",
       "value":"no",
       "required":false
+    },
+    "AUTO_STICKER": {
+      "description": "when enabled it autosicker you allow bot to send sticker automatic with detected words",
+      "value": "no",
+      "required": false
     },
     "AUTO_DOWNLOAD_STATUS": {
       "description": "Your contact status will be downloaded automatically and sent to you (type 'yes' to activate or 'no' to deactivate; don't write in capital letters)",
