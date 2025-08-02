@@ -38,6 +38,16 @@
       "value": "no",
       "required": false
     },
+    "ANTI_BAD": {
+      "description": "when enabled it bot was detect bad words and delete",
+      "value": "no",
+      "required": false
+    },
+    "ANTI_BUG": {
+      "description": "when you enable anti bug 🐛 bot is detect bugs text and delete",
+      "value": "no",
+      "required": false
+    },
     "AUTO_REACT_STATUS": {
       "description": "Your contact status will be react automatically (type 'yes' to activate or 'no' to deactivate; don't write in capital letters)",
       "value": "yes",
