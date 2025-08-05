@@ -35,7 +35,7 @@ module.exports = { session: process.env.SESSION_ID || 'ezra',
     ANTI_TAG : process.env.ANTI_TAG || "on",
     ANTI_BAD : process.env.ANTI_BAD || "on",
     ANTI_SHARE_GROUP : process.env.ANTI_SHARE_GROUP || "on",
-    ANTI_LINK_GROUP : process.env.ANTI_LINK_GROUP || "on"
+    ANTI_LINK_GROUP : process.env.ANTI_LINK_GROUP || "on",
     AUTO_BIO: process.env.AUTO_BIO || 'yes',       
     ANTI_CALL_TEXT : process.env.ANTI_CALL_TEXT || '',             
     GURL: process.env.GURL  || "https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f",
