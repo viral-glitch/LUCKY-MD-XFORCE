@@ -14,7 +14,10 @@
 </p>
 
 <p align="center">
-  <img src="https://profile-counter.glitch.me/{mr-X-force}/count.svg" alt="Visitor's Count" />
+  <img src="https://komarev.com/ghpvc/?username=mr-X-force&label=VIEWS&style=square&color=blue" alt="Profile Views" />
+  <img src="https://github-readme-stats.vercel.app/api?username=mr-X-force&show_icons=true&theme=github_dark" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mr-X-force&layout=compact&theme=github_dark" />
+  <img src="https://github-profile-trophy.vercel.app/?username=mr-X-force&theme=monokai" />
   <img src="https://komarev.com/ghpvc/?username=LUCKY-MD-XFORCE&label=VIEWS&style=square&color=blue" />
 </p>
 
